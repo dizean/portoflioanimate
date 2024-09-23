@@ -1,0 +1,38 @@
+.about{
+    width: 100%;
+    background-color: rgba(18, 21, 28, 0.9);
+    color: aliceblue;
+    padding: 20px 0;
+}
+.about .content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.about .content .left{
+    width: 50%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.content .left img{
+    width: 90%;
+}
+.about .content .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+ .content .right h1,p{
+    margin: 0;
+    padding: 20px 0;
+ }
+ .content .right h1{
+   font-size: 70px;
+ }
+ .content .right p{
+    font-size: 18px;
+ }
